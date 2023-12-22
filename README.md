@@ -13,3 +13,6 @@ Foody Hub is a web application designed to provide users with a curated selectio
 
 Used the API links provided by kalvium and got one more from this website https://www.themealdb.com/api.php
 
+### Credits
+
+Done by P S JEEVEEKA from Squad 51.
