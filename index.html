@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foody Hub</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav>
+    <img id="logo" src="./assets/Foody hub.png" alt="Logo">
+    <div id="nav_content">
+        <p id="home">Home</p>
+        <p id="popular_dishes">Popular Dishes</p>
+    </div>
+</nav>
+<div class="break">
+    <br>
+</div>
+<div class="grey" id="welcome-text">
+    <h1>Welcome to Foody Hub!</h1>
+    <p id="welcome-message">Are you hungry but confused on what delicious dish to eat at the moment? Don’t worry, just <br> check out our chosen random dish. You can always refresh if you want to pick a different one.<br>
+        Have a category of food in mind? You can also try the meals suggested by us based on the <br> category chosen by you. <br> 
+        (To know the ingredients and instructions click on the dish)</p>
+    <select class="dropdown" id="categoryDropdown">
+        <option disabled selected>Choose your category</option>
+    </select>
+    <div class="advertisement-box">
+        <p>Chosen the dish but lazy to cook? Just swiggy it!</p>
+        <a href="https://www.swiggy.com" target="_blank">
+            <img id="swiggy_logo" src="./assets/swiggy.jpg" alt="swiggy_logo">
+        </a>
+    </div>
+</div>
+<div class="break">
+    <br>
+</div>
+<div class="grey">
+    <h2>Special dish</h2>
+    <div id="random_dish">
+        <img id="dish_image"></img>
+        <p class="dish-title" id="dish_title"></p>
+    </div>
+</div>
+<div class="break">
+    <br>
+</div>
+<div class="grey-wrapper">
+    <div id="category" class="grey">
+        <p id="category_title">Your category suggestions</p>
+        <br>
+        <p id="information"> <img id="information-icon" src="./assets/metrostation-information-icon-png-clipart-removebg-preview.png" alt="information-icon">Please select the category</p>
+        <div id="searched_categories"></div>
+    </div>
+</div>
+
+
+<div id="modal-container" class="modal-container"></div>
+
+
+</body>
+</html>
+<script src="./index.js"></script>
